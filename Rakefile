@@ -3,7 +3,7 @@
 # For playing nice with mock
 File.umask(027)
 
-require 'simp/rake/pkg'
+require 'pkg'
 
 begin
   require 'puppetlabs_spec_helper/rake_tasks'
@@ -22,6 +22,6 @@ rescue LoadError
   puts "== WARNING: Gem puppet-lint not found, lint tests cannot be run! =="
 end
 
-Simp::Rake::Pkg.new( File.dirname( __FILE__ ) ) do | t |
-  t.clean_list << "#{t.base_dir}/spec/fixtures/hieradata/hiera.yaml"
-end
+#Simp::Rake::Pkg.new( File.dirname( __FILE__ ) ) do | t |
+#  t.clean_list << "#{t.base_dir}/spec/fixtures/hieradata/hiera.yaml"
+#end

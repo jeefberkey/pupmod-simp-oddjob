@@ -7,6 +7,7 @@ gem 'puppet-lint'
 gem 'puppetlabs_spec_helper'
 gem 'puppet_module_spec_helper'
 gem 'puppet-module'
+gem 'simp-cli-helpers'
 
 group :debug do
     gem 'pry'
