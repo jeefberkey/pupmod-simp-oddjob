@@ -3,7 +3,7 @@
 # For playing nice with mock
 File.umask(027)
 
-require 'pkg'
+require 'simp/rake/pkg'
 
 begin
   require 'puppetlabs_spec_helper/rake_tasks'
