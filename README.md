@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nickmillerop/pupmod-simp-oddjob.svg?branch=master)](https://travis-ci.org/nickmillerop/pupmod-simp-oddjob)
+[![Build Status](https://travis-ci.org/jeefberkey/pupmod-simp-oddjob.svg?branch=master)](https://travis-ci.org/jeefberkey/pupmod-simp-oddjob)
 
 ## Work in Progress
 
