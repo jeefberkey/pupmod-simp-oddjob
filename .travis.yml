@@ -5,12 +5,11 @@ rvm:
     - 1.9.3
     - 2.0.0
     - 2.2.1
+install: bundle install
 script:
-    - 'bundle install'
     - 'bundle exec rake lint'
     - 'bundle exec rake validate'
     - 'bundle exec rake spec'
-    - 'bundle exec rake build'
 matrix:
     allow_failures:
         - rvm: 1.8.7
